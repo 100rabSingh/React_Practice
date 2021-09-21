@@ -1,0 +1,5 @@
+/* Advantage of using css modules is that they are locally scoped by default */
+
+.success{
+    color: green;
+}

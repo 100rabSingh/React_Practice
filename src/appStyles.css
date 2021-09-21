@@ -1,0 +1,5 @@
+/* Using CSS files have disadvantage that they are globally scoped. So CSS kind of applies to every child component also. */
+
+.error{
+    color: red;
+}

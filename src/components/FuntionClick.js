@@ -3,7 +3,7 @@
 import React from 'react'
 
 function FuntionClick() {
-    function clickHandler(){
+    function clickHandler() {
         console.log('Button Clicked')
     }
     return (
