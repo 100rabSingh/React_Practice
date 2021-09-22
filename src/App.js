@@ -18,11 +18,15 @@ import styles from './appStyles.module.css'
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
 import LifecycleUpdate from './components/LifecycleUpdate';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 function App() {
   return (
     <div className="App">
-      <LifecycleUpdate />
+      <Table />
+      {/* <FragmentDemo /> */}
+      {/* <LifecycleUpdate /> */}
       {/* <LifeCycleA /> */}
       {/* <Form /> */}
       {/* <h1 className='error'>Error</h1>
