@@ -20,11 +20,17 @@ import LifeCycleA from './components/LifeCycleA';
 import LifecycleUpdate from './components/LifecycleUpdate';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import PureComp from './components/PureComp';
+import RegComp from './components/RegComp';
+import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
 
 function App() {
   return (
     <div className="App">
-      <Table />
+      <RefsDemo />
+      {/* <ParentComp /> */}
+      {/* <Table /> */}
       {/* <FragmentDemo /> */}
       {/* <LifecycleUpdate /> */}
       {/* <LifeCycleA /> */}
@@ -39,7 +45,7 @@ function App() {
       {/* <FuntionClick /> */}
       {/* <ClassClick /> */}
       {/* <Counter/> */}
-      {/* <Message/> */}
+      {/* <Message /> */}
       {/* <Greet name="Tony Stark" heroName="Iron Man">
         <p>This is Children Props</p></Greet>
       <Greet name="Steve" heroName="Captain America">

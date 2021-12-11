@@ -3,24 +3,25 @@
 import React, { Component } from 'react'
 
 class Message extends Component {
-    constructor(){
+    constructor() {
         super()
         this.state = {
             message: 'Welcome Visitor'
         }
     }
 
-    changeMessage(){
+    changeMessage() {
         this.setState({
             message: 'Thank You for Subscribing <3'
-        })
+        }, () => { console.log(this.state.message); })
+        console.log(this.state.message);
     }
-    render(){
+    render() {
         return (
-        <div>
-            <h1>{this.state.message}</h1>
-            <button onClick={() =>this.changeMessage()}>Subscribe</button>
-        </div>
+            <div>
+                <h1>{this.state.message}</h1>
+                <button onClick={() => this.changeMessage()}>Subscribe</button>
+            </div>
         )
     }
 }
