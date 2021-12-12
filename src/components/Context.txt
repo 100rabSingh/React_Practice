@@ -1,0 +1,15 @@
+Context is a API.
+=> Context API provides a way to pass data through the component tree without having to pass props down manually at every level.
+
+Steps to Implement Context:
+    1) Create the Context
+    2)Provide a Context Value
+    3) Consume the Context Value in necessary Components
+
+# You can set a default Value to your context, and default value is set while creating the context - it is passed as an argument to 
+  createContext method
+
+# ContextType Property : Easier than Consumer Component
+    But there are 2 Limitations:
+        1) It Only works with Class Components
+        2) You can Only Subscribe to a single Context using Context Type
