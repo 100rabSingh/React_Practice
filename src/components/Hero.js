@@ -1,3 +1,5 @@
+//Error Boundaries
+
 import React from 'react'
 
 function Hero({ heroName }) {
