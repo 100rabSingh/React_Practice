@@ -1,0 +1,8 @@
+Why Higher Order Component?
+ => To share the common functionality between the Components without repeating the code.
+
+What is HOC?
+=> A Pattern where a function takes a component as an argument and returns a new component.
+    const EnhancedComponent = higherOrderComponent( original Component )
+
+    ex: const IronMan = withSuit( Tony Stark )
